@@ -26,7 +26,7 @@ Clone the Repository
 bash
 
 Copy
-git clone https://github.com/your-username/meun.git
+git clone https://github.com/aditya2000300/MEUN-project.git
 cd meun
 Install Dependencies Run the following command to install all required packages:
 bash
@@ -44,6 +44,7 @@ REACT_APP_BOTPRESS_BOT_ID=your_bot_id
 REACT_APP_BOTPRESS_CONFIG_URL=https://your-botpress-config-url
 
 Note: API keys for Razorpay and Botpress should be obtained from their respective services.
+
 Set Up the Database (Optional)
 
 If integrating a backend database (e.g., MongoDB or Firebase), ensure the backend server is running and the API endpoints are configured.
@@ -75,13 +76,18 @@ Browser Compatibility: Supports modern browsers as per browserslist in package.j
 
 
 Running the Project
-Start the development server:
+Start the frontend server:
 bash
-
-Copy
+cd client
 npm start
 Open your browser and navigate to http://localhost:3000.
 The app will reload if you make edits, and you will see any lint errors in the console.
+
+Start the backend server:
+bash
+cd client
+npm run dev
+Open your browser and navigate to http://localhost:5000.
 
 
 
